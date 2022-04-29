@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans  xmlns="http://www.springframework.org/schema/beans"  
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+    xsi:schemaLocation="http://www.springframework.org/schema/beans  
+    http://www.springframework.org/schema/beans/spring-beans-4.0.xsd">
+    
+    <bean id="eob" class="com.edu.Employee">
+    <constructor-arg value="1" type="int"> </constructor-arg>
+    <constructor-arg value="Ram" type="String"></constructor-arg>
+    <constructor-arg value="50000.00" type = "float"></constructor-arg>
+    </bean>
+    
+     <bean id="eob1" class="com.edu.Employee">
+    <constructor-arg value="2" type="int"> </constructor-arg>
+    <constructor-arg value="Shyam" type="String"></constructor-arg>
+    <constructor-arg value="45000" type="float"></constructor-arg>
+    </bean>
+    
+    
+     </beans>
